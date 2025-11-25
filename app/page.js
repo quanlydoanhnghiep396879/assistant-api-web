@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchAPI() {
       const res = await axios.post(
-        "https://vietduc.app.n8n.cloud/webhook-test/7df1d5a9-bca9-4377-b27b-d2a1cb54372f"
+        "https://vietduc.app.n8n.cloud/webhook/7df1d5a9-bca9-4377-b27b-d2a1cb54372f"
       );
       setData(res.data);
     }
