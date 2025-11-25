@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchAPI() {
       const res = await axios.post(
-        "https://DUC-N8N-URL/webhook/assistant-api/hourly-report"
+        "https://duc.n8n.cloud/webhook/assistant-api/hourly-report"
       );
       setData(res.data);
     }
