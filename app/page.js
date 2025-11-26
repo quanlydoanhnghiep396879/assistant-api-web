@@ -19,8 +19,8 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchAPI() {
-      const res = await axios.post(
-        "https://vietduc.app.n8n.cloud/webhook/595d5847-eca2-43e7-9e0a-9459c9bced8d"
+      const res = await axios.post(      
+"https://vietduc.app.n8n.cloud/webhook/471caa5d-e7e2-4f20-b94e-6f1a1369fe04"
       );
       setData(res.data);
     }
